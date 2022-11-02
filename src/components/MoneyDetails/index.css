@@ -1,0 +1,83 @@
+/* Write your CSS here */
+/* Write your CSS here */
+.balance-card {
+  border-radius: 8px;
+  width: 220px;
+  height: 100px;
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  margin-left: 0px;
+  margin-right: 35px;
+}
+.income-card {
+  border-radius: 8px;
+  width: 220px;
+  height: 100px;
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  color: #06b6d4;
+  margin-right: 35px;
+}
+
+.expenses-card {
+  border-radius: 8px;
+  width: 220px;
+  height: 100px;
+  background-color: #ede9fe;
+  border: 1px solid #47316d;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  color: #06b6d4;
+  margin-right: 35px;
+}
+
+.image {
+  margin-top: 5px;
+  width: 45px;
+  height: 45px;
+}
+.balance-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  margin-top: 13px;
+}
+.balance {
+  color: #1e293b;
+  font-size: 10px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.amount {
+  font-size: 18px;
+  color: #1e293b;
+  font-weight: 600;
+  margin-top: 0px;
+  padding-top: 5px;
+}
+
+@media screen and (max-width: 776px) {
+  .income-card {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  .balance-card {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  .expenses-card {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+}

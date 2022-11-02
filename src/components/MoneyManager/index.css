@@ -1,0 +1,179 @@
+/* Write your CSS here */
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.name-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  height: 150px;
+  width: 730px;
+  background-size: cover;
+  padding-left: 30px;
+  padding-top: 28px;
+  border-radius: 8px;
+}
+
+.name {
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 25px;
+}
+
+.wishes {
+  font-size: 15px;
+  font-weight: 600;
+  color: #475569;
+}
+.span {
+  color: #0b69ff;
+}
+
+.item-card {
+  display: flex;
+  padding-left: 0px;
+}
+
+.add-transaction-card {
+  border: 1px solid #475569;
+  border-radius: 8px;
+  width: 300px;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  padding-left: 25px;
+}
+
+.heading {
+  color: #475569;
+  font-size: 25px;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+}
+
+.label {
+  margin-top: 15px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #475569;
+}
+.input-box {
+  width: 240px;
+  height: 35px;
+  color: #1e293b;
+  padding-left: 10px;
+  font-size: 12px;
+}
+.button {
+  color: white;
+  width: 70px;
+  height: 35px;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 5px;
+  background-color: #0b69ff;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  margin-top: 15px;
+}
+.add-transaction-history-container {
+  display: flex;
+}
+.history-container {
+  border: 1px solid #475569;
+  border-radius: 8px;
+  width: 410px;
+  margin-left: 20px;
+}
+
+.heading1 {
+  color: #475569;
+  font-size: 25px;
+  padding-left: 12px;
+  padding-top: 25px;
+}
+
+.transaction-column-container {
+  padding: 0px;
+}
+.transaction-column {
+  list-style-type: none;
+  border: 1px solid #afb3b9;
+  display: flex;
+  align-items: center;
+  height: 42px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.column {
+  font-size: 18px;
+  color: #475569;
+  font-weight: 600;
+  padding-left: 10px;
+  width: 25%;
+}
+
+.column2 {
+  padding-left: 18px;
+  font-size: 18px;
+  color: #475569;
+  font-weight: 600;
+  width: 25%;
+}
+
+.column3 {
+  padding-left: 18px;
+  font-size: 18px;
+  color: #475569;
+  font-weight: 600;
+  width: 25%;
+  margin-left: 15px;
+}
+
+@media screen and (max-width: 776px) {
+  .name-container {
+    width: 100%;
+    text-align: center;
+    padding-left: 0px;
+  }
+  .responsive-container {
+    width: 80%;
+    max-width: 550px;
+  }
+
+  .item-card {
+    display: flex;
+    flex-direction: column;
+  }
+  .add-transaction-card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .add-transaction-history-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .history-container {
+    margin-left: 0px;
+    width: 100%;
+  }
+  .input-box {
+    width: 180px;
+  }
+  .column2 {
+    padding-left: 15px;
+  }
+  .column3 {
+    margin-left: 12px;
+  }
+}

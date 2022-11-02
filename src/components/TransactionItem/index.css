@@ -1,0 +1,61 @@
+/* Write your CSS here */
+.table-row {
+  list-style-type: none;
+  border: 1px solid #afb3b9;
+  border-top: none;
+  display: flex;
+  align-items: center;
+  height: 42px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.table-column1 {
+  font-size: 15px;
+  color: #475569;
+  font-weight: 500;
+  padding-left: 20px;
+  width: 30%;
+}
+
+.table-column2 {
+  padding-left: 10px;
+  font-size: 15px;
+  color: #475569;
+  font-weight: 500;
+  width: 30%;
+}
+
+.table-column3 {
+  padding-left: 13px;
+  font-size: 15px;
+  color: #475569;
+  font-weight: 500;
+  width: 30%;
+}
+
+.delete-icon {
+  width: 18px;
+  padding-top: 5px;
+}
+.delete-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  margin-left: 26px;
+}
+
+@media screen and (max-width: 776px) {
+  .table-column1 {
+    font-size: 12px;
+    padding-left: 10px;
+  }
+  .table-column2 {
+    font-size: 12px;
+  }
+  .table-column3 {
+    font-size: 12px;
+    padding-left: 18px;
+  }
+}
